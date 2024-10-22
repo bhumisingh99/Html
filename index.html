@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Learning HTML From YouTube Channel(Thapa) </title>
+        <style>
+            html {
+                scroll-behavior:smooth;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="Redirecting"> HTML : Hyper Text Markup Language </h1>
+
+        <hr>
+
+        <p> Element : Tags + Content </p> 
+        
+        <hr>
+
+        <p> <mark>/* Heading Tags */</mark> </p>
+        <!-- ----------------------------------------------- -->
+        <h1> h1 Hey, My name is Bhumi Singh </h1>
+        <h2> h2 Hey, My name is Bhumi Singh </h2>
+        <h3> h3 Hey, My name is Bhumi Singh </h3>
+        <h4> h4 Hey, My name is Bhumi Singh </h4>
+        <h5> h5 Hey, My name is Bhumi Singh </h5>
+        <h6> h6 Hey, My name is Bhumi Singh </h6>
+
+        <hr>
+
+        <p> <mark>/* Paragraph Tag */</mark> </p>
+        <!-- ----------------------------------------------- -->
+        <p> My Name is <strong>Bhumi Singh</strong>, <br> I am 2024 passout Engineering Graduate in Computer Science from Anand Engineering College, Agra. <br> I have good knowledge about Java, Dsa, FrontEnd Dev and Mysql. <br> I have done training in Web Dev and Cyber Security. </p>
+
+        <!-- <p> /* comment */ </p> 
+        <p> My Name is <strong>Bhumi Singh</strong>, <br> I am 2024 passout Engineering Graduate in Computer Science from Anand Engineering College, Agra. <br> I have good knowledge about Java, Dsa, FrontEnd Dev and Mysql. <br> I have done training in Web Dev and Cyber Security. </p> -->
+
+        <hr>
+
+        <p> <mark>/* Text Formatting / Inline elements  */</mark> </p>
+        <!-- ----------------------------------------------- -->
+        <p> This is <b>Bold</b> and this is <strong>Strong</strong>.</p>
+        <p> Italic: <i>Bhumi Singh</i> as well but using <em>emmet</em> </p>
+        <p> <u>Underline</u> </p>
+        <p> <s>Strikethrough</s> as well but using <del>del</del> </p>
+        <p> Highlight: <mark>Bhumi Singh</mark> </p>
+        <p> Big: <big>Bhumi Singh</big> </p>
+        <p> Small: <small>Bhumi Singh</small> </p>
+        <p> SubScript: Formula of💧 H<sub>2</sub>O </p>
+        <p> SuperScript: A<sup>2</sup> + B </p>
+
+        <p> Preformatted Text: 
+            <pre>with: my   name    is   Bhumi    Singh</pre>
+            without: my   name    is   Bhumi    Singh 
+        </p>
+
+        <!--  kbd: to make the content look like the format of keyboard typed.-->
+        <p> KeyBoard for Command: To save a file, press <kbd>ctrl + s</kbd>.</p>
+        
+        <!-- abbr: to add additional info, shown when hovered.-->
+        <p> Abbreviation: <abbr title="World Health Organization">WHO</abbr> is an International Organization.</p>
+        
+        <!-- [inline] style: to add basic colors, texture to that particular text/line only.-->
+        <p style="color:rgb(151, 17, 124)"> <b><u>Inline Style</u> is one of the way to style Html content.</b> </p>
+        
+        <hr>
+        
+        <p> <mark>/* Anchor Tag */</mark> </p>
+        <!-- ----------------------------------------------- -->
+        <a 
+        href="\hlo.html" 
+        target="_blank"
+        title="click to open" 
+        id="1" 
+        class="10th"> 
+        Relative Link 
+        </a> 
+
+        <pre></pre>
+        <a 
+        href="https://google.com" 
+        style="color:#c01c14"> 
+        Google 
+        </a>
+
+        <pre></pre>
+        <a href="#Redirecting" title="click to reach section Headings"> Redirecting </a>
+        
+        <pre>👉🏻 Attribute: download </pre>
+        <a href="\jaiHo\feet.jpg" download> Download Image </a>
+        
+        <pre>👉🏻 Send mail to client directly </pre>
+        <a href="mailto:basingh120@gmail.com"> Send mail for Feedback</a>
+        
+        <pre>👉🏻 use phone </pre>
+        <a href="tel:+910000456002">Call Us</a> 
+        <br>
+        <a href="tel:+910003407013">Emergency Number</a>
+
+        <hr>
+
+        <p> <mark>/* Entities */</mark> </p>
+        <!-- ----------------------------------------------- -->
+        <p> 
+        Less than And Greater than 👉🏻 &lt;p&gt; <br>
+        Ampersand(&) 👉🏻 &amp; <br>
+        Double quotation mark(") 👉🏻 &quot; <br> 
+        Single quotation mark(') 👉🏻 &apos; <br>
+        Non-breaking sapce ( ) 👉🏻 a&nbsp;b #thespacebetweena&b <br>
+        Dollar Symbol 👉🏻 &dollar; &#36; &#x00024; <br>
+        Copyright 👉🏻 &copy; <br>
+        Registered trademark symbol 👉🏻 &reg; <br>
+        Trademark Symbol 👉🏻 &trade; <br>
+        Heart Symbol (🖤) 👉🏻 &hearts; <br>
+        </p>
+
+        <hr>
+
+        <p> <mark>/* Image Tag */</mark> </p>
+        <!-- ----------------------------------------------- -->
+        <h3>To make Image clickable</h3>
+        <a href="/jaiHo/MohanFeet.jpg" target="_blank">
+            <img 
+                src="/jaiHo/RadhaRaniFeet.jpg" 
+                title="Click the Image"
+                alt="Kishori Jii's Feet" 
+                width="100%" 
+                height="auto" 
+                loading="lazy"
+            />
+        </a>
+
+        <!-- area: to make image clickable with one additional functionality of making only the wanted part/area to be clickable.-->
+        <img 
+            src="/jaiHo/RadhaRaniFeet.jpg" 
+            alt="Kishori Jii's Feet" 
+            usemap="#map"
+            width="100%" 
+            height="auto" 
+        />
+        <map name="map">
+            <area
+                shape="rect"
+                coords="0,0,100,100"
+                href="/jaiHo/MohanFeet.jpg"
+                alt="Mohan's Feet"
+                target="_blank"
+            />
+            <!-- <area
+                shape="circle"
+                coords="200,150,50"
+                href="/jaiHo/MohanFeet.jpg"
+                alt="Mohan's Feet"
+                target="_blank"
+            /> -->
+            <!-- <area
+                shape="poly"
+                coords="300,100,350,200,250,300"
+                href="/jaiHo/MohanFeet.jpg"
+                alt="Mohan's Feet"
+                target="_blank"
+            /> -->
+        </map>
+
+        <hr>
+        
+        <p> <mark>/* Picture Tag */</mark> </p>
+        <!-- ----------------------------------------------- -->
+        <picture>
+            <!-- in inspect code will show <img/> but in reality the webp is displayed, webp takes very less file size -->
+            <source srcset="/jaiHo/Kasol.webp" type="image/webp"/>      <!-- 1st show -->
+            <source srcset="/jaiHo/Aum.jpg" type="image/jpg"/>      <!-- 2nd priority -->
+            <img src="/jaiHo/Aum.jpg" alt="Aum image" width="100%" height="200"/>             <!-- 3rd prio, actual -->
+        </picture>
+
+        <hr>
+
+        <p> <mark>/* Figure Tag */</mark></p>
+        <!-- ----------------------------------------------- -->
+        <figure>
+            <!-- <figure>: using <figcaption> to add caption -->
+            <img src="/jaiHo/RadhaKrishnaJi.jpg" alt="radha krishna image" width="100%" height="500"/>
+            <figcaption>The Highest position that anyone can reach in life is to serve KishoriJi's & MohanJi's Feet!</figcaption>
+        </figure>
+
+        <hr/>
+
+        <p> <mark>/* Html List Tag */</mark></p>
+        <!-- ----------------------------------------------- -->
+        <ul style="list-style-type: square">
+            <li>apple</li>
+            <li>banana</li>
+            <li>mango</li>
+            <li>guava</li>
+        </ul>
+        <ol style="list-style-type:armenian;">
+            <li>1st class</li>
+            <li>2nd class</li>
+            <li>3rd class</li>
+            <li>4th class</li>
+        </ol>
+        <ol style="list-style-type:circle;">
+            <li>1st class</li>
+            <li>2nd class</li>
+            <li>3rd class</li>
+            <li>4th class</li>
+        </ol>
+        <ol style="list-style-type:decimal;">
+            <li>1st class</li>
+            <li>2nd class</li>
+            <li>3rd class</li>
+            <li>4th class</li>
+        </ol>
+        <ol style="list-style-type:decimal-leading-zero;">
+            <li>1st class</li>
+            <li>2nd class</li>
+            <li>3rd class</li>
+            <li>4th class</li>
+        </ol>
+        <ol style="list-style-type:disc;">
+            <li>1st class</li>
+            <li>2nd class</li>
+            <li>3rd class</li>
+            <li>4th class</li>
+        </ol>
+        <ol style="list-style-type:georgian;">
+            <li>1st class</li>
+            <li>2nd class</li>
+            <li>3rd class</li>
+            <li>4th class</li>
+        </ol>
+        <ol style="list-style-type:lower-alpha;">
+            <li>1st class</li>
+            <li>2nd class</li>
+            <li>3rd class</li>
+            <li>4th class</li>
+        </ol>
+        <ol style="list-style-type:lower-greek;">
+            <li>1st class</li>
+            <li>2nd class</li>
+            <li>3rd class</li>
+            <li>4th class</li>
+        </ol>
+        <ol style="list-style-type:lower-latin;">
+            <li>1st class</li>
+            <li>2nd class</li>
+            <li>3rd class</li>
+            <li>4th class</li>
+        </ol>
+        <ol style="list-style-type:lower-roman;">
+            <li>1st class</li>
+            <li>2nd class</li>
+            <li>3rd class</li>
+            <li>4th class</li>
+        </ol>
+        <ol style="list-style-type:none;">
+            <li>1st class</li>
+            <li>2nd class</li>
+            <li>3rd class</li>
+            <li>4th class</li>
+        </ol>
+        <ol style="list-style-type:square;">
+            <li>1st class</li>
+            <li>2nd class</li>
+            <li>3rd class</li>
+            <li>4th class</li>
+        </ol>
+        <ol style="list-style-type:symbols();">
+            <li>1st class</li>
+            <li>2nd class</li>
+            <li>3rd class</li>
+            <li>4th class</li>
+        </ol>
+        <ol style="list-style-type:upper-alpha;">
+            <li>1st class</li>
+            <li>2nd class</li>
+            <li>3rd class</li>
+            <li>4th class</li>
+        </ol>
+        <ol style="list-style-type:upper-latin;">
+            <li>1st class</li>
+            <li>2nd class</li>
+            <li>3rd class</li>
+            <li>4th class</li>
+        </ol>
+        <ol style="list-style-type:upper-roman;">
+            <li>1st class</li>
+            <li>2nd class</li>
+            <li>3rd class</li>
+            <li>4th class</li>
+        </ol>
+        
+        <ol type="i">
+            <li>1st class</li>
+            <li>2nd class</li>
+            <li>3rd class</li>
+            <li>4th class</li>
+        </ol>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+    </body>
+</html>
