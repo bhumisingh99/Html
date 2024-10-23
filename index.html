@@ -45,7 +45,7 @@
         <p> Italic: <i>Bhumi Singh</i> as well but using <em>emmet</em> </p>
         <p> <u>Underline</u> </p>
         <p> <s>Strikethrough</s> as well but using <del>del</del> </p>
-        <p> Highlight: <mark>Bhumi Singh</mark> </p>
+        <p> Highlight, using mark: <mark>Bhumi Singh</mark> </p>
         <p> Big: <big>Bhumi Singh</big> </p>
         <p> Small: <small>Bhumi Singh</small> </p>
         <p> SubScript: Formula of💧 H<sub>2</sub>O </p>
@@ -70,11 +70,11 @@
         <p> <mark>/* Anchor Tag */</mark> </p>
         <!-- ----------------------------------------------- -->
         <a 
-        href="\hlo.html" 
+        href="\01_second.html" 
         target="_blank"
         title="click to open" 
-        id="1" 
-        class="10th"> 
+        id="insta" 
+        class="first"> 
         Relative Link 
         </a> 
 
@@ -89,7 +89,7 @@
         <a href="#Redirecting" title="click to reach section Headings"> Redirecting </a>
         
         <pre>👉🏻 Attribute: download </pre>
-        <a href="\jaiHo\feet.jpg" download> Download Image </a>
+        <a href="\images\feet.jpg" download> Download Image </a>
         
         <pre>👉🏻 Send mail to client directly </pre>
         <a href="mailto:basingh120@gmail.com"> Send mail for Feedback</a>
@@ -121,9 +121,9 @@
         <p> <mark>/* Image Tag */</mark> </p>
         <!-- ----------------------------------------------- -->
         <h3>To make Image clickable</h3>
-        <a href="/jaiHo/MohanFeet.jpg" target="_blank">
+        <a href="/images/MohanFeet.jpg" target="_blank">
             <img 
-                src="/jaiHo/RadhaRaniFeet.jpg" 
+                src="/images/RadhaRaniFeet.jpg" 
                 title="Click the Image"
                 alt="Kishori Jii's Feet" 
                 width="100%" 
@@ -134,7 +134,7 @@
 
         <!-- area: to make image clickable with one additional functionality of making only the wanted part/area to be clickable.-->
         <img 
-            src="/jaiHo/RadhaRaniFeet.jpg" 
+            src="/images/RadhaRaniFeet.jpg" 
             alt="Kishori Jii's Feet" 
             usemap="#map"
             width="100%" 
@@ -144,21 +144,21 @@
             <area
                 shape="rect"
                 coords="0,0,100,100"
-                href="/jaiHo/MohanFeet.jpg"
+                href="/images/MohanFeet.jpg"
                 alt="Mohan's Feet"
                 target="_blank"
             />
             <!-- <area
                 shape="circle"
                 coords="200,150,50"
-                href="/jaiHo/MohanFeet.jpg"
+                href="/images/MohanFeet.jpg"
                 alt="Mohan's Feet"
                 target="_blank"
             /> -->
             <!-- <area
                 shape="poly"
                 coords="300,100,350,200,250,300"
-                href="/jaiHo/MohanFeet.jpg"
+                href="/images/MohanFeet.jpg"
                 alt="Mohan's Feet"
                 target="_blank"
             /> -->
@@ -170,9 +170,9 @@
         <!-- ----------------------------------------------- -->
         <picture>
             <!-- in inspect code will show <img/> but in reality the webp is displayed, webp takes very less file size -->
-            <source srcset="/jaiHo/Kasol.webp" type="image/webp"/>      <!-- 1st show -->
-            <source srcset="/jaiHo/Aum.jpg" type="image/jpg"/>      <!-- 2nd priority -->
-            <img src="/jaiHo/Aum.jpg" alt="Aum image" width="100%" height="200"/>             <!-- 3rd prio, actual -->
+            <source srcset="/images/Kasol.webp" type="image/webp"/>      <!-- 1st show -->
+            <source srcset="/images/Aum.jpg" type="image/jpg"/>      <!-- 2nd priority -->
+            <img src="/images/Aum.jpg" alt="Aum image" width="100%" height="200"/>             <!-- 3rd prio, actual -->
         </picture>
 
         <hr>
@@ -181,7 +181,7 @@
         <!-- ----------------------------------------------- -->
         <figure>
             <!-- <figure>: using <figcaption> to add caption -->
-            <img src="/jaiHo/RadhaKrishnaJi.jpg" alt="radha krishna image" width="100%" height="500"/>
+            <img src="/images/RadhaKrishnaJi.jpg" alt="radha krishna image" width="100%" height="500"/>
             <figcaption>The Highest position that anyone can reach in life is to serve KishoriJi's & MohanJi's Feet!</figcaption>
         </figure>
 
@@ -195,126 +195,52 @@
             <li>mango</li>
             <li>guava</li>
         </ul>
-        <ol style="list-style-type:armenian;">
-            <li>1st class</li>
-            <li>2nd class</li>
-            <li>3rd class</li>
-            <li>4th class</li>
-        </ol>
-        <ol style="list-style-type:circle;">
-            <li>1st class</li>
-            <li>2nd class</li>
-            <li>3rd class</li>
-            <li>4th class</li>
-        </ol>
-        <ol style="list-style-type:decimal;">
-            <li>1st class</li>
-            <li>2nd class</li>
-            <li>3rd class</li>
-            <li>4th class</li>
-        </ol>
-        <ol style="list-style-type:decimal-leading-zero;">
-            <li>1st class</li>
-            <li>2nd class</li>
-            <li>3rd class</li>
-            <li>4th class</li>
-        </ol>
-        <ol style="list-style-type:disc;">
-            <li>1st class</li>
-            <li>2nd class</li>
-            <li>3rd class</li>
-            <li>4th class</li>
-        </ol>
-        <ol style="list-style-type:georgian;">
-            <li>1st class</li>
-            <li>2nd class</li>
-            <li>3rd class</li>
-            <li>4th class</li>
-        </ol>
-        <ol style="list-style-type:lower-alpha;">
-            <li>1st class</li>
-            <li>2nd class</li>
-            <li>3rd class</li>
-            <li>4th class</li>
-        </ol>
-        <ol style="list-style-type:lower-greek;">
-            <li>1st class</li>
-            <li>2nd class</li>
-            <li>3rd class</li>
-            <li>4th class</li>
-        </ol>
-        <ol style="list-style-type:lower-latin;">
-            <li>1st class</li>
-            <li>2nd class</li>
-            <li>3rd class</li>
-            <li>4th class</li>
-        </ol>
-        <ol style="list-style-type:lower-roman;">
-            <li>1st class</li>
-            <li>2nd class</li>
-            <li>3rd class</li>
-            <li>4th class</li>
-        </ol>
-        <ol style="list-style-type:none;">
-            <li>1st class</li>
-            <li>2nd class</li>
-            <li>3rd class</li>
-            <li>4th class</li>
-        </ol>
-        <ol style="list-style-type:square;">
-            <li>1st class</li>
-            <li>2nd class</li>
-            <li>3rd class</li>
-            <li>4th class</li>
-        </ol>
-        <ol style="list-style-type:symbols();">
-            <li>1st class</li>
-            <li>2nd class</li>
-            <li>3rd class</li>
-            <li>4th class</li>
-        </ol>
         <ol style="list-style-type:upper-alpha;">
             <li>1st class</li>
             <li>2nd class</li>
             <li>3rd class</li>
             <li>4th class</li>
         </ol>
-        <ol style="list-style-type:upper-latin;">
+        <!-- Attributes -->
+        <ol type="i" start="5" >
             <li>1st class</li>
             <li>2nd class</li>
             <li>3rd class</li>
             <li>4th class</li>
         </ol>
-        <ol style="list-style-type:upper-roman;">
+        <ol start="15">
             <li>1st class</li>
             <li>2nd class</li>
             <li>3rd class</li>
             <li>4th class</li>
         </ol>
-        
-        <ol type="i">
-            <li>1st class</li>
-            <li>2nd class</li>
-            <li>3rd class</li>
-            <li>4th class</li>
-        </ol>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-
-
-
-
-
-
+        <hr/>
+        <!-- nested list -->
+        <p>Nested List</p>
+        <ul>
+            <li>Fruits
+                <ol>
+                    <li>Banana</li>
+                    <li>Apple
+                        <ol style="list-style-type:square;">
+                            <li>Green</li>
+                            <li>Red</li>
+                        </ol>
+                    </li>
+                    <li>Guava</li>
+                </ol>
+            </li>
+            <li>Vegetables</li>
+            <li>Panner</li>
+        </ul>
+        <hr/>
+        <!-- Horizontal Navigation -->
+        <ul style="list-style-type:none; display:flex; gap:15px;">
+            <li><a href="01_second.html" target="_blank">RestOfTheCode</a></li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Contact</li>
+        </ul>
 
     </body>
 </html>
